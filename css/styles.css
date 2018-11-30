@@ -162,7 +162,8 @@ header {
 
 nav {
   display: none;
-  position: fixed; }
+  position: fixed;
+  transition: 2s ease-out; }
   nav ul {
     position: absolute;
     background-color: #bbc2ca;
@@ -186,7 +187,7 @@ nav {
 
 /*------------------------- MAIN -------------------------*/
 main {
-  /*--ARTICLE*/ }
+  /*-------------------------INDIAN FOODS----------------------*/ }
   main figure.banner {
     width: 100%;
     position: relative;
@@ -243,6 +244,9 @@ main {
     opacity: 0.3; }
   main #menu figure.photo:hover h3 {
     opacity: 1; }
+  main .indian-foods {
+    padding-top: 6rem;
+    padding-bottom: 3rem; }
 
 /*-------------------- FOOTER ------------------------------*/
 footer {

@@ -91,6 +91,7 @@ header{
 nav{       
     display: none;
     position: fixed;
+    transition: 2s ease-out;
     ul{
         position: absolute;
         background-color: $secondaryColor;
@@ -199,8 +200,11 @@ main{
         opacity: 1;
     }
     
-    /*--ARTICLE*/
-    
+    /*-------------------------INDIAN FOODS----------------------*/
+    .indian-foods{
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+    }
 
 
 

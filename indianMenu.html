@@ -28,27 +28,32 @@
              <!--page navigation goes here-->
         <nav class='' id='nav-bar'>            
             <ul>
-                <li class='btn'><a href='./index.html'>Home</a></li>
+                <li class='btn'><a href='index.html'>Home</a></li>
                 <li class='btn active'><a href='#'>Indian Foods</a></li>
                 <li class='btn'><a href='#'>English Foods</a></li>
                 <li class='btn'><a href='#'>Meal Deals</a></li>
-               
             </ul>
         </nav>
         </header>
-        
+
+       
+
+        <!--Page content goes here-->
         <main>
-            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non lorem condimentum metus egestas semper. Nunc molestie erat ac metus placerat, et tincidunt enim hendrerit. Donec eget metus neque. Cras eleifend lorem et magna eleifend, vitae iaculis eros scelerisque. Sed accumsan odio enim, id feugiat nulla sollicitudin a. In vitae euismod sapien. Ut et adipiscing metus. Morbi mattis ut elit eu adipiscing. Phasellus at feugiat turpis. Sed quis purus pellentesque, volutpat neque adipiscing, pellentesque massa.</div>
-
-
-
+            <section class='indian-foods'>
+                <h2>Indian Menu</h2>
+                <hr class='fadeAway'>
+                <div id='indianList'></div>
+            </section>           
         </main>
 
-        <footer>
+        <!--Page footer goes here-->
+        <footer class="clearfix">
             <p>&copy; 2018 Indian Restaurant &bull;<a href='tel:0123455689'>0123455689</a></p>
         </footer>
         <script src='scripts/menuToggle.js'></script>
         <script src='scripts/shrinkNavOnScroll.js'></script>
         <script src='scripts/activeClass.js'></script>
+        <script src="./scripts/indianMenu.js"></script>
     </body>
 </html>
