@@ -60,6 +60,27 @@ main{
     figure.banner{ 
         margin-bottom: 6rem;
     }
+
+    #home .res-pic {
+       text-align: right;
+       padding: 1rem 0;
+    }
+    #home .res-info{
+        padding: 1rem 0;
+    }
+   .grid{
+       display: grid;
+       grid-template-columns: repeat(12,1fr);
+       grid-template-rows: 200px;
+   } 
+   .grid .res-pic{
+       grid-column: span 3;
+       width:100%;
+   }
+   .grid .res-info{
+       grid-auto-rows: 1;
+       grid-column: span 9;
+   }
     #menu{
         width:100%;
     }
@@ -80,7 +101,7 @@ main{
        
     }//end h3
     
-    /*------------------- ARTICLES ----------------*/
+  
     
 
 

@@ -5,7 +5,7 @@ const dishData = [
       description: 'lamb chunk cooked in hot sauce of tomato and spices',
       ingredient: ["lamb", "tomato", "spices"],
       price: '£7.50',
-      photo: "https://i.imgur.com/aiTopD3.jpg"
+      photo: "https://via.placeholder.com/150"
     },
     {
       name: "Samosa Chat",
@@ -13,7 +13,7 @@ const dishData = [
       description: 'vegetable samosa with fresh tomato, cucumber and yogurt dressing',
       ingredient: ["potato", "tomato", "cucumber", "spices", "peas"],
       price: '£3.00',
-      photo: "https://i.imgur.com/x9R9c6v.jpg"
+      photo: "https://via.placeholder.com/150"
     },
     {
       name: "Small Mixed Grill",
@@ -21,7 +21,7 @@ const dishData = [
       description: 'two type of chicken wings, lamb chops and lamb kebabs are served on the sizzling plate.',
       ingredient: ["potato", "tomato", "cucumber", "spices", "peas"],
       price: '£9.00',
-      photo: "https://i.imgur.com/nivbYdA.jpg"
+      photo: "https://via.placeholder.com/150"
     }
   ];
 
@@ -29,10 +29,14 @@ const dishData = [
 
   function showDish(dish){
     return `<div class="dishes">
-              <h3> ${dish.name} </h3>
-              <h4> ${dish.price} </h4>
-              <p>Spicy: ${dish.spicy} </p>
-              <p>Description: ${dish.description}</p>
+              <p class='dish-photo'><img src='${dish.photo}'></p>
+              <div class='dish-info'>
+                <h3 class='dish-name'> ${dish.name} </h3>
+                <p class='dish-spicy'>Spicy: ${dish.spicy} 
+                  <span class='dish-price'> ${dish.price} </span>
+                </p>                                
+                <p class='dish-detail'>Description: ${dish.description}</p>
+              </div>
             </div>
            `
   }

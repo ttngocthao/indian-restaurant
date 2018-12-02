@@ -159,8 +159,11 @@ main{
         width: 80%;
         margin: .5rem auto 1rem auto; 
     }//end p
+    .grid{
+        text-align: center;
+    }
     #home img{
-        width:100%;
+        width:75%;
     }
     hr.fadeAway{
         background: linear-gradient(to right, rgba(66,78,100,1) 0%,rgba(41,137,216,0.5) 50%,rgba(32,124,202,0.49) 51%,rgba(66,78,100,0) 100%);
@@ -185,19 +188,23 @@ main{
 
     #menu figure.photo h3{
         position: absolute;
-        top:2%;
-        opacity: 0;
-        left:4%;
+        top: 29%;
+        left: 29%;
+        opacity: .8;
+        background-color: $secondaryColor;
+        padding: .5rem 1rem;
+        border-radius: 12.9px;    
         z-index:2;
         color: $primaryColor;
         transition: .3s ease-in; 
     }
 
     #menu figure.photo:hover img{
-        opacity: 0.3;
+        opacity: 0.5;
     }
     #menu figure.photo:hover h3{
         opacity: 1;
+        background-color: lighten($secondaryColor,50%);
     }
     
     /*-------------------------INDIAN FOODS----------------------*/
@@ -205,7 +212,48 @@ main{
         padding-top: 6rem;
         padding-bottom: 3rem;
     }
+    .dishes {
+        display:grid;
+        grid-template-columns: repeat(12,1fr);       
+        font-weight: $normalWeight;
+        background-color: lightseagreen;
+        padding: $gutter;
+        box-shadow:  3px 3px 3px rgba(0, 0, 0, .1);
+        margin: 1rem 0;
 
+        .dish-photo{
+            grid-column: span 3;
+            float:left;
+            text-align: center;
+        }
+
+        .dish-photo img{
+            width: 100%;
+            border: 4px solid white;
+            box-shadow:  3px 3px 3px rgba(0, 0, 0, .1);
+        }
+
+        .dish-info{
+            grid-column: span 9;
+            margin-left:$gutter;
+            font-size: .9rem;
+        }
+        
+        .dish-name{
+            text-align: center;
+            font-size: 1rem;
+            padding: 2% 0;
+        }
+        .dish-spicy{
+            margin: 2%;
+        }
+        .dish-price{
+            position: relative;
+            float:right;
+            
+        }
+
+    }
 
 
 }//end of main
@@ -215,7 +263,6 @@ main{
 /*-------------------- FOOTER ------------------------------*/
 footer{
     width:100%;
-   
     background-color: $primaryColor;
     p{
         text-align: center;

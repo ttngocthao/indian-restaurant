@@ -215,10 +215,8 @@ main {
     color: #35373a;
     width: 80%;
     margin: .5rem auto 1rem auto; }
-  main .grid {
-    text-align: center; }
   main #home img {
-    width: 75%; }
+    width: 50%; }
   main hr.fadeAway {
     background: linear-gradient(to right, #424e64 0%, rgba(41, 137, 216, 0.5) 50%, rgba(32, 124, 202, 0.49) 51%, rgba(66, 78, 100, 0) 100%);
     height: 2px;
@@ -236,52 +234,19 @@ main {
     transition: .3s ease-out; }
   main #menu figure.photo h3 {
     position: absolute;
-    top: 29%;
-    left: 29%;
-    opacity: .8;
-    background-color: #bbc2ca;
-    padding: .5rem 1rem;
-    border-radius: 12.9px;
+    top: 2%;
+    opacity: 0;
+    left: 4%;
     z-index: 2;
     color: #424e64;
     transition: .3s ease-in; }
   main #menu figure.photo:hover img {
-    opacity: 0.5; }
+    opacity: 0.3; }
   main #menu figure.photo:hover h3 {
-    opacity: 1;
-    background-color: white; }
+    opacity: 1; }
   main .indian-foods {
     padding-top: 6rem;
     padding-bottom: 3rem; }
-  main .dishes {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    font-weight: 300;
-    background-color: lightseagreen;
-    padding: 2%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-    margin: 1rem 0; }
-    main .dishes .dish-photo {
-      grid-column: span 3;
-      float: left;
-      text-align: center; }
-    main .dishes .dish-photo img {
-      width: 100%;
-      border: 4px solid white;
-      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); }
-    main .dishes .dish-info {
-      grid-column: span 9;
-      margin-left: 2%;
-      font-size: .9rem; }
-    main .dishes .dish-name {
-      text-align: center;
-      font-size: 1rem;
-      padding: 2% 0; }
-    main .dishes .dish-spicy {
-      margin: 2%; }
-    main .dishes .dish-price {
-      position: relative;
-      float: right; }
 
 /*-------------------- FOOTER ------------------------------*/
 footer {
@@ -346,35 +311,22 @@ footer {
       color: beige; }
 
   /*------------------- MAIN ----------------*/
-  main figure.banner {
-    margin-bottom: 6rem; }
-  main #home .res-pic {
-    text-align: right;
-    padding: 1rem 0; }
-  main #home .res-info {
-    padding: 1rem 0; }
-  main .grid {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 200px; }
-  main .grid .res-pic {
-    grid-column: span 3;
-    width: 100%; }
-  main .grid .res-info {
-    grid-auto-rows: 1;
-    grid-column: span 9; }
-  main #menu {
-    width: 100%; }
-  main #menu figure.photo {
-    float: left;
-    width: 33.33%;
-    padding: 0 0.25%;
-    margin: .5rem 0; }
-  main #menu figure.photo img {
-    width: 100%;
-    text-align: center; }
-  main .content h3 {
-    margin: 2% 0; } }
+  main {
+    /*------------------- ARTICLES ----------------*/ }
+    main figure.banner {
+      margin-bottom: 6rem; }
+    main #menu {
+      width: 100%; }
+    main #menu figure.photo {
+      float: left;
+      width: 33.33%;
+      padding: 0 0.25%;
+      margin: .5rem 0; }
+    main #menu figure.photo img {
+      width: 100%;
+      text-align: center; }
+    main .content h3 {
+      margin: 2% 0; } }
 /*end media query*/
 @media only screen and (min-width: 60rem) {
   /*------------------- BODY ----------------*/
@@ -419,3 +371,5 @@ footer {
     main div.blog article:nth-child(3n+1) {
       clear: left; } }
 /*end media query*/
+
+/*# sourceMappingURL=styles.css.map */
