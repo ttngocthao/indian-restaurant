@@ -5,7 +5,7 @@ const dishData = [
       description: 'lamb chunk cooked in hot sauce of tomato and spices',
       ingredient: ["lamb", "tomato", "spices"],
       price: '£7.50',
-      photo: "https://via.placeholder.com/150"
+      photo: "https://via.placeholder.com/50"
     },
     {
       name: "Samosa Chat",
@@ -13,7 +13,7 @@ const dishData = [
       description: 'vegetable samosa with fresh tomato, cucumber and yogurt dressing',
       ingredient: ["potato", "tomato", "cucumber", "spices", "peas"],
       price: '£3.00',
-      photo: "https://via.placeholder.com/150"
+      photo: "https://via.placeholder.com/50"
     },
     {
       name: "Small Mixed Grill",
@@ -21,7 +21,15 @@ const dishData = [
       description: 'two type of chicken wings, lamb chops and lamb kebabs are served on the sizzling plate.',
       ingredient: ["potato", "tomato", "cucumber", "spices", "peas"],
       price: '£9.00',
-      photo: "https://via.placeholder.com/150"
+      photo: "https://via.placeholder.com/50"
+    },
+    {
+      name: "Small Mixed Grill",
+      spicy: "level 1",
+      description: 'two type of chicken wings, lamb chops and lamb kebabs are served on the sizzling plate.',
+      ingredient: ["potato", "tomato", "cucumber", "spices", "peas"],
+      price: '£9.00',
+      photo: "https://via.placeholder.com/50"
     }
   ];
 

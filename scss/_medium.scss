@@ -68,6 +68,8 @@ main{
     #home .res-info{
         padding: 1rem 0;
     }
+
+    /*PICTURE OF THE PUB*/
    .grid{
        display: grid;
        grid-template-columns: repeat(12,1fr);
@@ -87,6 +89,7 @@ main{
     #menu figure.photo{
         float:left;
         width: 33.33%;
+        cursor: pointer;
         padding: 0 0.25%;
         margin:.5rem 0;        
     }//end figure's photo
@@ -95,7 +98,43 @@ main{
         width: 100%;
         text-align: center;
     }
-   
+    
+    #menu figure.photo h3{
+        position: absolute;
+        top: 29%;
+        left: 29%;
+        opacity: .8;
+        font-size: 1rem;
+        z-index: 5;
+        background-color: $secondaryColor;
+        margin: 0 auto;
+        padding: .5rem 1rem;
+        border-radius: 12.9px;    
+        color: $primaryColor;
+        transition: .3s ease-in; 
+    }
+
+    .dishes {
+        width: 48%;
+        float: left;     
+        font-weight: $normalWeight;
+        background-color: darken($secondaryColor,10%);
+        padding: $gutter;
+        box-shadow:  3px 3px 3px rgba(0, 0, 0, .1);
+        margin: 2% 1%;
+
+        .dish-photo{
+            grid-column: span 3;
+            float:left;
+            text-align: center;
+        }
+
+        .dish-spicy{
+            position: relative;
+        }
+
+    }
+
     .content h3{
         margin: 2% 0;
        
