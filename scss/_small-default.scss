@@ -137,6 +137,7 @@ main{
         font-size: 1.5rem;
         margin: 1rem 0 0 $gutter;
         color: $primaryColor;
+        
     }//end h1
 
     h2{
@@ -258,8 +259,26 @@ main{
             padding: .5rem 0;
             border-top: 1px solid gainsboro;
         }
-    }
+    }//ends indian menu
 
+    #contact #mapBtn{
+        border: 2px solid $primaryColor;
+        font-size: 1rem;
+        padding: .5rem .2rem;
+        width: 60%;
+        cursor: pointer;
+        box-shadow:  3px 3px 3px rgba(0, 0, 0, .1);
+    }//ends map btn
+
+    #contact #mapBtn:after{
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content:'\f35d';
+        margin: 0 1rem;
+    }
+    #contact #mapBtn a{
+        text-decoration: none;
+    }
 
 }//end of main
 
@@ -279,6 +298,8 @@ footer{
     }//end of paragraph
     
     p a { color: $secondaryColor}
+
+   
 }//end of footer
 
 

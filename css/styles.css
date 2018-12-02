@@ -287,6 +287,20 @@ main {
       margin: 2%;
       padding: .5rem 0;
       border-top: 1px solid gainsboro; }
+  main #contact #mapBtn {
+    border: 2px solid #424e64;
+    font-size: 1rem;
+    padding: .5rem .2rem;
+    width: 60%;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1); }
+  main #contact #mapBtn:after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f35d';
+    margin: 0 1rem; }
+  main #contact #mapBtn a {
+    text-decoration: none; }
 
 /*-------------------- FOOTER ------------------------------*/
 footer {
@@ -411,7 +425,11 @@ footer {
       main .dishes .dish-spicy {
         position: relative; }
     main .content h3 {
-      margin: 2% 0; } }
+      margin: 2% 0; }
+    main #contact #mapBtn {
+      width: 35%; }
+    main #contact #mapBtn a {
+      text-decoration: none; } }
 /*end media query*/
 @media only screen and (min-width: 60rem) {
   /*------------------- BODY ----------------*/

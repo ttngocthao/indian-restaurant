@@ -35,6 +35,17 @@ const dishData = [
 
   var indianList = document.getElementById('indianList');
 
+
+
+
+
+
+
+
+
+
+
+  
   function showDish(dish){
     return `<div class="dishes">
               <p class='dish-photo'><img src='${dish.photo}'></p>
