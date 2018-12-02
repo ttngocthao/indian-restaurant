@@ -117,10 +117,6 @@ main{
     .dishes {
         width: 48%;
         float: left;     
-        font-weight: $normalWeight;
-        background-color: darken($secondaryColor,10%);
-        padding: $gutter;
-        box-shadow:  3px 3px 3px rgba(0, 0, 0, .1);
         margin: 2% 1%;
 
         .dish-photo{
