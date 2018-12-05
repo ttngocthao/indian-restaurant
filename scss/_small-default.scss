@@ -230,8 +230,16 @@ main{
         .dish-photo img{
             margin: .5rem 0;
             width: 100%;
+            position: relative;
+            left:0;
             border: 4px solid white;
+            transition: .3s ease-out;
             box-shadow:  3px 3px 3px rgba(0, 0, 0, .1);
+        }
+
+        .dish-photo:hover img{
+            transform: scale(1.5);            
+            left: 50px;
         }
 
         .dish-info{
