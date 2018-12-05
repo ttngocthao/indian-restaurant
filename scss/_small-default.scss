@@ -208,9 +208,13 @@ main{
     }
     
     /*-------------------------INDIAN FOODS----------------------*/
-    .indian-foods{
+    .foods{
         padding-top: 6rem;
         padding-bottom: 3rem;
+
+        h2{
+            margin-top: 2rem;
+        }
     }
     .dishes {
         display:grid;

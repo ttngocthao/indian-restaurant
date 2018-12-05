@@ -1,4 +1,4 @@
-const dishData = [
+const indianDishData = [
     {
       name: "Lamb Madras",
       spicy: "level 3",
@@ -33,19 +33,8 @@ const dishData = [
     }
   ];
 
-  var indianList = document.getElementById('indianList');
+  var listDishes = document.getElementById('listDishes');
 
-
-
-
-
-
-
-
-
-
-
-  
   function showDish(dish){
     return `<div class="dishes">
               <p class='dish-photo'><img src='${dish.photo}'></p>
@@ -61,6 +50,6 @@ const dishData = [
   }
 
   window.addEventListener('load',function(){
-    indianList.innerHTML = dishData.map(showDish).join('');
+    listDishes.innerHTML = indianDishData.map(showDish).join('');
     this.className += ' active';
   });
