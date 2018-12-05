@@ -4,14 +4,7 @@ function toggleNav(){
 }
 menuIcon.addEventListener('click',toggleNav);
 
-window.onclick= function(event){
-  if(!event.target.matches('.menuIcon')){
-    var navBarLists = document.getElementsByClassName('navBarList');
-    for(var i = 0; i < navBarLists.length;i++){
-      var openList = navBarLists[i];
-      if(openList.classList.contains('showMenu')){
-        openList.classList.remove('showMenu');
-      }
-    }
-  }
-}
+var navbar=document.getElementById('nav-bar');
+navbar.addEventListener('click',function(){
+  this.classList.toggle('showMenu');
+})

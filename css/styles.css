@@ -155,14 +155,14 @@ header {
 
 /*------------------ NAVIGATION -----------------*/
 .showMenu {
-  display: block;
-  top: 5.1rem;
-  left: 0;
-  width: 100%; }
+  display: block; }
 
 nav {
   display: none;
   position: fixed;
+  top: 4rem;
+  left: 0;
+  width: 100%;
   transition: 2s ease-out; }
   nav ul {
     position: absolute;
