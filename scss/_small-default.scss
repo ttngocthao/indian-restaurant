@@ -215,6 +215,10 @@ main{
         h2{
             margin-top: 2rem;
         }
+        h3{
+            margin: 2%  auto ;
+            text-align: center;
+        }
     }
     .dishes {
         display:grid;
@@ -222,7 +226,7 @@ main{
         font-weight: $normalWeight;
         
         background-color: darken($secondaryColor,10%);
-        padding: $gutter;
+        padding: 1%;
         box-shadow:  3px 3px 3px rgba(0, 0, 0, .1);
         margin: 1rem 0;
 
@@ -244,8 +248,8 @@ main{
         }
 
         .dish-photo:hover img{
-            transform: scale(1.5);            
-            left: 50px;
+            transform: scale(2);            
+            left: 30%;
         }
 
         .dish-info{
