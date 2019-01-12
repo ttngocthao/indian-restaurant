@@ -68,8 +68,10 @@ header{
     h1{
         font-size: 1.7rem;
         position: relative;
+        color: whitesmoke;
         top: -10px;
         font-weight: $normalWeight;
+        text-shadow: .5px .5px .5px white;
     }//end of h1
 
     h2{
