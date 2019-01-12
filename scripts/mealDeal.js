@@ -18,56 +18,56 @@ const mealDealData = [
     {
       name: "Chicken/Beef Burger and Chips",
       spicy: "N/A",
-      description: 'chicken/beef, chips served with side salad',
+      description: 'Chicken/beef served with chips and a side salad',
       price: '£7.50',
       photo: "./images/chicken-burger.jpg"
     },
     {
       name: "Baguette with 2 toppings and chips",
       spicy: "N/A",
-      description: 'topping can be:...................',
+      description: 'Topping can be any two of the following: sausage, bacon, ham, tuna, cheese, prawn, tomato, onion, cucumber, lettuce, mixed salad',
       price: '£7.50',
       photo: "./images/tuna-baguette.jpg"
     },
     {
       name: "jacket potato with 2 toppings and salad",
       spicy: "N/A",
-      description: 'topping choices:.....................',
+      description: 'Topping can be any two of the following: sausage, bacon, ham, tuna, cheese, prawn, tomato, onion, cucumber, lettuce, mixed salad',
       price: '£7.50',
       photo: "./images/jacket-potato.jpg"
     },
     {
       name: "Chicken Curry, Rice and Poppadom",
       spicy: "level 2",
-      description: 'homemade curry with steamed white rice',
+      description: 'Homemade chicken curry with steamed white rice',
       price: '£7.50',
       photo: "./images/curry-deal.jpg"
     },
     {
       name: "Chicken/Beef Burger and Chips",
       spicy: "N/A",
-      description: 'chicken/beef, chips served with side salad',
+      description: 'Chicken/beef served with chips and a side salad',
       price: '£7.50',
       photo: "./images/chicken-burger.jpg"
     },
     {
       name: "Baguette with 2 toppings and chips",
       spicy: "N/A",
-      description: 'topping can be:...................',
+      description: 'Topping can be any two of the following: sausage, bacon, ham, tuna, cheese, prawn, tomato, onion, cucumber, lettuce, mixed salad',
       price: '£7.50',
       photo: "./images/tuna-baguette.jpg"
     },
     {
       name: "jacket potato with 2 toppings and salad",
       spicy: "N/A",
-      description: 'topping choices:.....................',
+      description: 'Topping can be any two of the following: sausage, bacon, ham, tuna, cheese, prawn, tomato, onion, cucumber, lettuce, mixed salad',
       price: '£7.50',
       photo: "./images/jacket-potato.jpg"
     },
     {
       name: "Chicken Curry, Rice and Poppadom",
       spicy: "level 2",
-      description: 'homemade curry with steamed white rice',
+      description: 'Homemade chicken curry with steamed white rice',
       price: '£7.50',
       photo: "./images/curry-deal.jpg"
     }

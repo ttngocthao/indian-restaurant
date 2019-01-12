@@ -18,56 +18,56 @@ const indianDishData = [
     {
       name: "Lamb Madras",
       spicy: "level 3",
-      description: 'lamb chunk cooked in hot sauce of tomato and spices',
+      description: 'lamb chunks cooked in a hot sauce of tomato and spices',
       price: '£7.50',
       photo: "./images/lamb-madras.jpg"
     },
     {
       name: "Samosa Chat",
       spicy: "level 1",
-      description: 'vegetable samosa with fresh tomato, cucumber and yogurt dressing',
+      description: 'vegetable samosa with fresh tomato, cucumber, chickpeas and yogurt dressing',
       price: '£3.00',
       photo: "./images/samosa-chat.jpg"
     },
     {
       name: "Small Mixed Grill",
       spicy: "level 1",
-      description: 'two type of chicken wings, lamb chops and lamb kebabs are served on the sizzling plate.',
+      description: 'two types of chicken wing, lamb chops and lamb kebabs are served on a sizzling plate.',
       price: '£9.00',
       photo: "./images/mixed-grill.jpg"
     },
     {
       name: "Manchurian Chicken",
       spicy: "level 2",
-      description: 'spicy In-Chinese dishes with peppers and onion.',
+      description: 'spicy Indo-Chinese dish with peppers and onion.',
       price: '£7.50',
       photo: "./images/manchurian-chicken.jpg"
     },
     {
       name: "Lamb Madras",
       spicy: "level 3",
-      description: 'lamb chunk cooked in hot sauce of tomato and spices',
+      description: 'lamb chunks cooked in hot sauce of tomato and spices',
       price: '£7.50',
       photo: "./images/lamb-madras.jpg"
     },
     {
       name: "Samosa Chat",
       spicy: "level 1",
-      description: 'vegetable samosa with fresh tomato, cucumber and yogurt dressing',
+      description: 'vegetable samosa with fresh tomato, cucumber, chickpeas and yogurt dressing',
       price: '£3.00',
       photo: "./images/samosa-chat.jpg"
     },
     {
       name: "Small Mixed Grill",
       spicy: "level 1",
-      description: 'two type of chicken wings, lamb chops and lamb kebabs are served on the sizzling plate.',
+      description: 'two types of chicken wing, lamb chops and lamb kebabs are served on a sizzling plate.',
       price: '£9.00',
       photo: "./images/mixed-grill.jpg"
     },
     {
       name: "Manchurian Chicken",
       spicy: "level 2",
-      description: 'spicy In-Chinese dishes with peppers and onion.',
+      description: 'spicy Indo-Chinese dish with peppers and onion.',
       price: '£7.50',
       photo: "./images/manchurian-chicken.jpg"
     }
