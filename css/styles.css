@@ -145,14 +145,14 @@ header {
   header #menuIcon:hover div {
     background-color: white; }
   header h1 {
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     position: relative;
     color: whitesmoke;
     top: -10px;
     font-weight: 300;
     text-shadow: .5px .5px .5px white; }
   header h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 300; }
 
 /*------------------ NAVIGATION -----------------*/
@@ -427,7 +427,8 @@ footer {
     main .dishes {
       width: 48%;
       float: left;
-      margin: .5% 1%; }
+      margin: .5% 1%;
+      height: 200px; }
       main .dishes .dish-photo {
         grid-column: span 3;
         float: left;

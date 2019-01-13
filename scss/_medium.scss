@@ -4,6 +4,7 @@ header{
     overflow: hidden;
     padding: 1.5rem 10px;
     transition: 0.4s;
+    
 }
 .shrinkHeader{
     padding: 1rem 10px;
@@ -118,6 +119,7 @@ main{
         width: 48%;
         float: left;     
         margin: .5% 1%;
+        height: 200px;
 
         .dish-photo{
             grid-column: span 3;
